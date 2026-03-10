@@ -42,14 +42,25 @@
         button:hover {
             background-color: #0056b3;
         }
+        #resultado {
+            margin-top: 20px;
+            padding: 15px;
+            min-height: 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            word-wrap: break-word;
+            border: 1px dashed #ccc;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Caja de texto</h1>
-        <input type="text">
+        <input type="text" id="cajaTexto">
         <br>
-        <button>Cambiar colores</button>
+        <div id="resultado">Esperando mensaje</div>
+        <button id="cambiarColores">Cambiar colores</button>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
